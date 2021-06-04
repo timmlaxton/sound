@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FiHeadphones } from 'react-icons/fi';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Button } from '../components/Button';
+import './Navbar.css';
 
 const Navbar = () => {
 	const [click, setClick] = useState(false);
