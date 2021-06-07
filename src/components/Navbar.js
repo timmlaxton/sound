@@ -39,41 +39,43 @@ const Navbar = () => {
 						<div className="menu-icon" onClick={handleClick}>
 							{click ? <FaTimes /> : <FaBars />}
 						</div>
-						<ul className={click ? 'nav-menu active' : 'nav-menu'}>
-							<li className="nav-item">
-								<Link to="/" className="nav-links" onClick={closeMobileMenu}>
-									Home
-								</Link>
-							</li>
-							<li className="nav-item">
-								<Link to="/" className="nav-links" onClick={closeMobileMenu}>
-									Equipment
-								</Link>
-							</li>
-							<li className="nav-item">
-								<Link to="/" className="nav-links" onClick={closeMobileMenu}>
-									Booking & Rates
-								</Link>
-							</li>
-							<li className="nav-item">
-								<Link to="/" className="nav-links" onClick={closeMobileMenu}>
-									Contact
-								</Link>
-							</li>
-							<li className="nav-btn">
-								{button ? (
-									<Link to="/sign-up" className="btn-link">
-										<Button buttonStyle="btn--outlin">Sign Up</Button>
+						<div>
+							<ul className={click ? 'nav-menu active' : 'nav-menu'}>
+								<li className="nav-item">
+									<Link to="/" className="nav-links" onClick={closeMobileMenu}>
+										Home
 									</Link>
-								) : (
-									<Link to="/sign-up" className="btn-link" onClick={closeMobileMenu}>
-										<Button buttonStyle="btn--outline" buttonSize="btn--mobile">
-											Sign Up
-										</Button>
+								</li>
+								<li className="nav-item">
+									<Link to="/" className="nav-links" onClick={closeMobileMenu}>
+										Equipment
 									</Link>
-								)}
-							</li>
-						</ul>
+								</li>
+								<li className="nav-item">
+									<Link to="/" className="nav-links" onClick={closeMobileMenu}>
+										Booking & Rates
+									</Link>
+								</li>
+								<li className="nav-item">
+									<Link to="/" className="nav-links" onClick={closeMobileMenu}>
+										Contact
+									</Link>
+								</li>
+								<li className="nav-btn">
+									{button ? (
+										<Link to="/sign-up" className="btn-link">
+											<Button buttonStyle="btn--outlin">Sign Up</Button>
+										</Link>
+									) : (
+										<Link to="/sign-up" className="btn-link" onClick={closeMobileMenu}>
+											<Button buttonStyle="btn--outline" buttonSize="btn--mobile">
+												Sign Up
+											</Button>
+										</Link>
+									)}
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</IconContext.Provider>
