@@ -1,0 +1,73 @@
+video {
+	object-fit: cover;
+	position: fixed;
+	z-index: -1;
+	background-image: cover;
+}
+
+.jumbotron {
+	background-color: white;
+	width: auto;
+	height: 400px;
+	border: solid white;
+	background-image: url(https://images.unsplash.com/photo-1563330232-57114bb0823c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmVjb3JkaW5nJTIwc3R1ZGlvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 40px;
+	font-weight: bold;
+	padding: 100px;
+}
+
+.jumbo-title {
+	text-align: center;
+	color: white;
+	font-size: 600%;
+}
+
+.jumbo-text {
+	text-align: center;
+	color: white;
+	font-size: 140%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row-home {
+	display: flex;
+	width: 40%;
+}
+
+.column-home {
+	flex: 100%;
+	margin-left: 20%;
+}
+
+.column-title {
+	font: bold;
+	width: 30%;
+	margin-left: 10%;
+}
+
+.paragraph-one {
+	width: 500%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+}
+.paragraph-two {
+	width: 500%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+}
+.paragraph-three {
+	width: 500%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+}

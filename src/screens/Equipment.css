@@ -1,0 +1,64 @@
+.container-box {
+	display: flex; /* establish flex container */
+	flex-wrap: wrap; /* enable flex items to wrap */
+	justify-content: flex-start;
+	padding: 2px;
+	margin: 6px;
+	flex-direction: row;
+}
+
+.box-home-1 {
+	width: 20%;
+	height: 160px;
+	background: yellow;
+	padding: 1px;
+	box-sizing: border-box;
+	background-image: url(https://images.unsplash.com/photo-1556704938-2e42ffde6011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fG1pY3JvcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+	border: solid white;
+}
+
+.box-home-2 {
+	width: 20%;
+	height: 160px;
+	background: yellow;
+	padding: 1px;
+	box-sizing: border-box;
+	background-image: url(https://images.unsplash.com/photo-1556704938-2e42ffde6011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fG1pY3JvcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+	border: solid white;
+}
+.box-home-3 {
+	width: 20%;
+	height: 160px;
+	background: yellow;
+	padding: 1px;
+	box-sizing: border-box;
+	background-image: url(https://images.unsplash.com/photo-1556704938-2e42ffde6011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fG1pY3JvcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+	border: solid white;
+}
+.box-home-4 {
+	width: 20%;
+	height: 160px;
+	background: yellow;
+	gap: 1;
+	box-sizing: border-box;
+	background-image: url(https://images.unsplash.com/photo-1556704938-2e42ffde6011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fG1pY3JvcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+	border: solid white;
+}
+.box-home-5 {
+	width: 20%;
+	height: 160px;
+	background: yellow;
+	padding: 1px;
+	box-sizing: border-box;
+	background-image: url(https://images.unsplash.com/photo-1556704938-2e42ffde6011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fG1pY3JvcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+	border: solid white;
+}
+.box-home-6 {
+	width: 20%;
+	height: 160px;
+	background: yellow;
+	padding: 1px;
+	box-sizing: border-box;
+	background-image: url(https://images.unsplash.com/photo-1556704938-2e42ffde6011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fG1pY3JvcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+	border: solid white;
+}
