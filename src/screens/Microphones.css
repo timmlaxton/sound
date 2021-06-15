@@ -1,0 +1,57 @@
+.mic-title {
+	text-align: center;
+	margin-top: 200px;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
+.mic-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.mic-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-right: 10px;
+}
+
+.mic-col {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0;
+	margin-right: 10px;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.stand-title {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
+.stand-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.stand-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-right: 10px;
+}
+
+.stand-col {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0;
+	margin-right: 10px;
+	margin-left: 50px;
+	margin-top: 40px;
+}

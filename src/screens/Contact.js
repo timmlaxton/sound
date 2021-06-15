@@ -30,19 +30,23 @@ const Contact = () => {
 		<div>
 			<Navbar />
 			<div className="container">
-				<p>
+				<div className="contact-paragraph">
 					{' '}
-					Sound engineer working in the live sector as a freelancer and chief engineer at Bloc+, Glasgow. My aim is to
-				</p>
-				<p>
-					move into the sound design sector with a view to enhancing interactive audio integration into theatre, dance
-					and therapeutic applications.{' '}
-				</p>
-				<br />
-				<p>
-					{' '}
-					<solid>For Rates & Inquiries Fill In The Form Below </solid>{' '}
-				</p>
+					<p>
+						{' '}
+						Sound engineer working in the live sector as a freelancer and chief engineer at Bloc+, Glasgow. My aim is to
+					</p>
+					<p>
+						move into the sound design sector with a view to enhancing interactive audio integration into theatre, dance
+						and therapeutic applications.{' '}
+					</p>
+					<br />
+					<p>
+						{' '}
+						<solid>For Rates & Inquiries Fill In The Form Below </solid>{' '}
+					</p>{' '}
+				</div>
+
 				<form onSubmit={handleSubmit}>
 					<div className="form-name">
 						<label for="name">Name: {''}</label>
