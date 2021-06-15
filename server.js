@@ -4,7 +4,6 @@ const router = express.Router();
 const cors = require('cors');
 const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
-const OAuth2 = google.auth.OAuth2;
 
 dotenv.config();
 
@@ -17,8 +16,8 @@ app.listen(5000, () => console.log('Server Running'));
 const contactEmail = nodemailer.createTransport({
 	service: 'gmail',
 	auth: {
-		user: process.env.NAME,
-		pass: process.env.PASS
+		user: 'audioeverything100@gmail.com',
+		pass: 'Monkey01!'
 	}
 });
 

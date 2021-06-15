@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FiHeadphones } from 'react-icons/fi';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import './Navbar.css';
 import { IconContext } from 'react-icons/lib';
+import './Navbar.css';
 
 const Navbar = () => {
 	const [click, setClick] = useState(false);
@@ -22,9 +22,12 @@ const Navbar = () => {
 
 	useEffect(() => {
 		showButton();
-	}, []);
+		window.addEventListener('resize', showButton);
 
-	window.addEventListener('resize', showButton);
+		return {
+			// window.removeEventListener('resize', showButton)
+		};
+	}, []);
 
 	return (
 		<IconContext.Provider value={{ color: '#ffff' }}>
@@ -47,6 +50,11 @@ const Navbar = () => {
 							<li className="nav-item">
 								<Link to="/booking" className="nav-links" onClick={closeMobileMenu}>
 									Booking & Rates
+								</Link>
+							</li>
+							<li className="nav-item">
+								<Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+									About
 								</Link>
 							</li>
 						</ul>

@@ -1,13 +1,11 @@
 import React from 'react';
 import './Equipment.css';
-import Navbar from '../components/Navbar';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Equipment = () => {
 	return (
 		<div>
-			<Navbar />
 			<div className="equipment-title">Equipment</div>
 			<div className="container-box">
 				<div className="box-home-1">

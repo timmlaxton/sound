@@ -1,15 +1,11 @@
 import React from 'react';
 import { Jumbotron, Row, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import Equipment from './Equipment';
-import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import './Home.css';
 
 const Home = () => {
 	return (
 		<div>
-			<Navbar />
 			<Jumbotron className="jumbotron">
 				<h1 className="jumbo-title">Everything Audio</h1>
 				<p className="jumbo-text">Glasgow, {''}Scotland 07513 579731.</p>

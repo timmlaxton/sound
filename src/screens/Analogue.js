@@ -1,15 +1,12 @@
 import React from 'react';
 import './Analogue.css';
 import { Row, Col } from 'react-bootstrap';
-import Navbar from '../components/Navbar';
 import Product from '../components/Product';
 import analogues from '../analogues';
 
 const Analogue = () => {
 	return (
 		<div>
-			<Navbar />
-
 			<div className="analogue-title">
 				<strong>Analogue Outboards</strong>
 			</div>
