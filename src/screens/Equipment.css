@@ -1,3 +1,9 @@
+.equipment-title {
+	text-align: center;
+	margin-top: 250px;
+	font-size: 60px;
+}
+
 .container-box {
 	display: flex;
 	flex-wrap: wrap;
@@ -46,26 +52,20 @@
 }
 
 .box-home-3 {
-	width: 50%;
+	width: 400%;
 	height: 360px;
-
+	text-align: center;
+	background-color: black;
 	padding: 1px;
 	box-sizing: border-box;
-	background-image: url(https://d1aeri3ty3izns.cloudfront.net/media/21/212290/600/preview.jpg);
+	background-image: url(https://images.unsplash.com/photo-1483000805330-4eaf0a0d82da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNvbnNvbGUlMjBsaWdodHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
 	border: solid white;
-}
-.box-home-4 {
-	width: 50%;
-	height: 360px;
-	background: yellow;
-	gap: 1;
-	box-sizing: border-box;
-	background-image: url(https://d1aeri3ty3izns.cloudfront.net/media/21/212290/600/preview.jpg);
-	border: solid white;
+	background-size: cover;
 }
 
-.equipment-title {
-	text-align: center;
-	margin-top: 250px;
+.console-link {
+	color: white;
+	text-decoration: none;
 	font-size: 60px;
+	margin-top: 20px;
 }

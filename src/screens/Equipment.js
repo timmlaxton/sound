@@ -12,7 +12,7 @@ const Equipment = () => {
 			<div className="container-box">
 				<div className="box-home-1">
 					<Link className="mic-link" to="/microphones">
-						Microphones
+						Microphones & Stands
 					</Link>
 				</div>
 				<div className="box-home-2">
@@ -21,11 +21,10 @@ const Equipment = () => {
 					</Link>
 				</div>
 				<div className="box-home-3">
-					<Link className="stands-link" to="/stands">
-						Stands
+					<Link className="console-link" to="/stands">
+						Console
 					</Link>
 				</div>
-				<div className="box-home-4">3</div>
 			</div>
 		</div>
 	);
