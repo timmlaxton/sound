@@ -14,7 +14,7 @@ const Home = () => {
 				<div className="column-home">
 					<h1 className="column-title">Two Unique Studios </h1>
 				</div>
-				<div className="column-home">
+				<div className="column-paragraph">
 					<p className="paragraph-one">
 						Everything Audio is a studio complex located in Glasgow, Scotland and owned by Stevin Cossar
 					</p>

@@ -1,18 +1,18 @@
-.analogue-title {
+.mic-title {
 	text-align: center;
 	margin-top: -230px;
 	margin-left: 30%;
 	width: 1%;
 }
 
-.analogue-description {
+.mic-description {
 	text-align: center;
 	margin-top: 0px;
 	margin-left: 30%;
 	width: 1%;
 }
 
-.analogue-quantity {
+.mic-quantity {
 	text-align: center;
 	margin-top: 0px;
 	margin-left: 30%;
@@ -24,7 +24,7 @@
 	width: 40vw;
 }
 
-.analogue-row {
+.mic-row {
 	margin-left: 20%;
 	margin-top: 10%;
 	position: sticky;
@@ -37,7 +37,7 @@
 
 .back-button {
 	text-decoration: none;
-	color: red;
+	color: #232323;
 }
 
 @media (min-width: 960px) {
@@ -45,19 +45,19 @@
 		width: 20vw;
 	}
 
-	.analogue-title {
+	.mic-title {
 		margin-left: -460px;
 		margin-top: 40px;
 		position: sticky;
 	}
 
-	.analogue-description {
+	.mic-description {
 		margin-left: -460px;
 		margin-top: 10px;
 		position: sticky;
 	}
 
-	.analogue-quantity {
+	.mic-quantity {
 		margin-left: -460px;
 		margin-top: 0px;
 		width: 45px;

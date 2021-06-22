@@ -70,3 +70,31 @@
 	font-size: 60px;
 	margin-top: 20px;
 }
+
+@media (max-width: 960px) {
+	.box-home-1,
+	.box-home-2,
+	.box-home-3 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.box-home-1 {
+		width: 100%;
+	}
+
+	.box-home-2 {
+		width: 100%;
+	}
+
+	.box-home-3 {
+		width: 100%;
+	}
+
+	.equipment-title,
+	.mic-link,
+	.analogue-link,
+	.console-link {
+		font-size: 2rem;
+	}	
+}

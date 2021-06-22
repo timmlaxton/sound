@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
+import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import './Contact.css';
-import Navbar from '../components/Navbar';
 
 const Contact = () => {
 	const [status, setStatus] = useState('Submit');
@@ -27,47 +27,54 @@ const Contact = () => {
 	};
 
 	return (
-		<div>
-			<Navbar />
-			<div className="container">
-				<div className="contact-paragraph">
-					{' '}
-					<p>
-						{' '}
-						Sound engineer working in the live sector as a freelancer and chief engineer at Bloc+, Glasgow. My aim is to
-					</p>
-					<p>
-						move into the sound design sector with a view to enhancing interactive audio integration into theatre, dance
-						and therapeutic applications.{' '}
-					</p>
-					<br />
-					<p>
-						{' '}
-						<solid>For Rates & Inquiries Fill In The Form Below </solid>{' '}
-					</p>{' '}
-				</div>
+		<Container className="my-4">
+			<Row>
+				<Col>
+					<div className="contact-container">
+						<div className="contact-paragraph">
+							{' '}
+							<p>
+								{' '}
+								Sound engineer working in the live sector as a freelancer and chief engineer at Bloc+, Glasgow. My aim
+								is to move into the sound design sector with a view to enhancing interactive audio integration into
+								theatre, dance and therapeutic applications.{' '}
+							</p>
+							<br />
+							<p>
+								{' '}
+								<solid>For Rates & Inquiries Fill In The Form Below </solid>{' '}
+							</p>{' '}
+						</div>
 
-				<form onSubmit={handleSubmit}>
-					<div className="form-name">
-						<label for="name">Name: {''}</label>
-						<input type="name" class="form-control" id="name" placeholder="name*"></input>
+						<Row>
+							<Col md={6} className="mx-auto">
+								<Form onSubmit={handleSubmit}>
+									<Form.Group className="form-name">
+										<Form.Label for="name">Name: {''}</Form.Label>
+										<Form.Control type="text" class="form-control" id="name" placeholder="name*" />
+									</Form.Group>
+									<Form.Group className="form">
+										<Form.Label for="exampleFormControlInput1">Email: {''}</Form.Label>
+										<Form.Control type="email" class="form-control" id="email" placeholder="email*" />
+									</Form.Group>
+									<Form.Group className="form">
+										<Form.Label for="exampleFormControlInput1">City: {''}</Form.Label>
+										<Form.Control type="text" class="form-control" id="city" placeholder="city*" />
+									</Form.Group>
+									<Form.Group className="form-message">
+										<Form.Label for="message">Message: {''}</Form.Label>
+										<Form.Control as="textarea" className="form" id="message" rows="10" placeholder="message*" />
+									</Form.Group>
+									<Button variant="primary" type="submit">
+										{status}
+									</Button>
+								</Form>
+							</Col>
+						</Row>
 					</div>
-					<div className="form">
-						<label for="exampleFormControlInput1">Email: {''}</label>
-						<input type="email" class="form-control" id="email" placeholder="email*"></input>
-					</div>
-					<div className="form">
-						<label for="exampleFormControlInput1">City: {''}</label>
-						<input type="city" class="form-control" id="city" placeholder="city*"></input>
-					</div>
-					<div className="form-message">
-						<label for="message">Message: {''}</label>
-						<textarea className="form" id="message" rows="10" placeholder="message*"></textarea>
-					</div>
-					<button type="submit">{status}</button>
-				</form>
-			</div>
-		</div>
+				</Col>
+			</Row>
+		</Container>
 	);
 };
 

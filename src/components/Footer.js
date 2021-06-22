@@ -7,7 +7,7 @@ const Footer = () => {
 	return (
 		<footer>
 			<div className="footer-container">
-				<p>erferfgerg</p>
+			
 			</div>
 		</footer>
 	);

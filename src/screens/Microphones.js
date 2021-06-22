@@ -1,23 +1,20 @@
 import React from 'react';
-import './Microphones.css';
 import { Row, Col } from 'react-bootstrap';
-import Navbar from '../components/Navbar';
 import Product from '../components/Product';
 import products from '../products';
 import stands from '../stands';
+import './Microphones.css';
 
 const Microphones = () => {
 	return (
 		<div>
-			<Navbar />
-
-			<div className="mic-title">
+			<div className="product-mic-title">
 				<strong>Microphones</strong>
 			</div>
-			<div className="mic-container">
-				<Row className="mic-row">
+			<div className="product-mic-container">
+				<Row className="product-mic-row">
 					{products.map((product) => (
-						<Col className="mic-col" sm={1} md={6}>
+						<Col className="product-mic-col" md={3}>
 							<Product product={product} />
 						</Col>
 					))}
@@ -27,11 +24,11 @@ const Microphones = () => {
 			<div className="stand-title">
 				<strong>Stands</strong>
 			</div>
-			<div className="stand-container">
-				<Row className="stand-row">
+			<div className="product-mic-container">
+				<Row className="product-mic-row">
 					{stands.map((stand) => (
-						<Col className="stand-col" sm={1} md={6}>
-							<Product product={stand} />
+						<Col className="product-mic-col" md={3}>
+							<Product product={stand} productType="stands" />
 						</Col>
 					))}
 				</Row>

@@ -1,23 +1,20 @@
 const express = require('express');
 const dotenv = require('dotenv');
-const router = express.Router();
 const cors = require('cors');
 const nodemailer = require('nodemailer');
+const path = require('path');
 const { google } = require('googleapis');
 
 dotenv.config();
-
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use('/', router);
-app.listen(5000, () => console.log('Server Running'));
 
 const contactEmail = nodemailer.createTransport({
 	service: 'gmail',
 	auth: {
-		user: 'audioeverything100@gmail.com',
-		pass: 'Monkey01!'
+		user: process.env.NODEMAILER_USER,
+		pass: process.env.NODEMAILER_PASSWORD
 	}
 });
 
@@ -29,7 +26,7 @@ contactEmail.verify((error) => {
 	}
 });
 
-router.post('/contact', (req, res) => {
+app.post('/contact', (req, res) => {
 	const name = req.body.name;
 	const email = req.body.email;
 	const message = req.body.message;
@@ -45,7 +42,15 @@ router.post('/contact', (req, res) => {
 		if (error) {
 			res.json({ status: 'ERROR' });
 		} else {
-			res.json({ status: 'Message Sent' });
+			res.json({ status: 'Thanks for getting in touch, I will get back to you soon' });
 		}
 	});
 });
+
+app.use(express.static('build'));
+
+app.get('/', (req, res) => {
+	res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+app.listen(5000, () => console.log(`Server Running on port ${5000}`));

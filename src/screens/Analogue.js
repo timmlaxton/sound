@@ -1,8 +1,8 @@
 import React from 'react';
-import './Analogue.css';
 import { Row, Col } from 'react-bootstrap';
 import Product from '../components/Product';
 import analogues from '../analogues';
+import './Analogue.css';
 
 const Analogue = () => {
 	return (
@@ -14,7 +14,7 @@ const Analogue = () => {
 				<Row className="analogue-row">
 					{analogues.map((analogue) => (
 						<Col className="analogue-col" sm={1} md={6}>
-							<Product product={analogue} />
+							<Product product={analogue} productType="analogues" />
 						</Col>
 					))}
 				</Row>
