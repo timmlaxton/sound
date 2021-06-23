@@ -1,6 +1,6 @@
 import React from 'react';
 import { Jumbotron } from 'react-bootstrap';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 import './Home.css';
 
 const Home = () => {
@@ -37,7 +37,7 @@ const Home = () => {
 			</div>
 
 			{/* <Equipment /> */}
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 };
