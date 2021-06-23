@@ -48,19 +48,19 @@ const Contact = () => {
 							<Col md={6} className="mx-auto">
 								<Form onSubmit={handleSubmit}>
 									<Form.Group className="form-name">
-										<Form.Label for="name">Name: {''}</Form.Label>
-										<Form.Control type="text" class="form-control" id="name" placeholder="name*" />
+										<Form.Label htmlFor="name">Name: {''}</Form.Label>
+										<Form.Control type="text" className="form-control" id="name" placeholder="name*" />
 									</Form.Group>
 									<Form.Group className="form">
-										<Form.Label for="exampleFormControlInput1">Email: {''}</Form.Label>
-										<Form.Control type="email" class="form-control" id="email" placeholder="email*" />
+										<Form.Label htmlFor="exampleFormControlInput1">Email: {''}</Form.Label>
+										<Form.Control type="email" className="form-control" id="email" placeholder="email*" />
 									</Form.Group>
 									<Form.Group className="form">
-										<Form.Label for="exampleFormControlInput1">City: {''}</Form.Label>
-										<Form.Control type="text" class="form-control" id="city" placeholder="city*" />
+										<Form.Label htmlFor="exampleFormControlInput1">City: {''}</Form.Label>
+										<Form.Control type="text" className="form-control" id="city" placeholder="city*" />
 									</Form.Group>
 									<Form.Group className="form-message">
-										<Form.Label for="message">Message: {''}</Form.Label>
+										<Form.Label htmlFor="message">Message: {''}</Form.Label>
 										<Form.Control as="textarea" className="form" id="message" rows="10" placeholder="message*" />
 									</Form.Group>
 									<Button variant="primary" type="submit">
