@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { useUrlQuery } from '../hooks';
 import './MicrophoneScreen.css';
@@ -31,7 +31,9 @@ const MicroPhoneScreen = ({ match }) => {
 
 	return (
 		<Container className="my-5">
-			<a className="back-button fas fa-arrow-left" onClick={history.goBack}></a>
+			<a className="back-button fas fa-arrow-left" onClick={history.goBack}>
+				<span style={{ display: 'none' }}>Back</span>
+			</a>
 
 			<Row className="mic-row">
 				<Col
