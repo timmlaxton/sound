@@ -5,10 +5,11 @@ import Navbar from './components/Navbar';
 
 import Home from './screens/Home';
 import Contact from './screens/Contact';
-import AboutScreen from './screens/AboutScreen'
+import AboutScreen from './screens/AboutScreen';
 import Equipment from './screens/Equipment';
 import Microphones from './screens/Microphones';
 import Analogue from './screens/Analogue';
+import Console from './screens/Console';
 import MicroPhoneScreen from './screens/MicrophoneScreen';
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 				<Route path="/equipment" exact component={Equipment} />
 				<Route path="/microphones" exact component={Microphones} />
 				<Route path="/analogue" exact component={Analogue} />
+				<Route path="/console" exact component={Console} />
 				<Route path="/product/:id" exact component={MicroPhoneScreen} />
 			</Switch>
 		</Router>

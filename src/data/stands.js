@@ -3,7 +3,7 @@ const stands = [
 		_id: '1',
 		name: 'Konig and Meyer Tall Boom',
 		image: '/images/stands/Konig and Meyer Boom.jpg',
-		description: 'Broadly useful cardiod condenser',
+
 		category: 'stands',
 		quantity: 9
 	},

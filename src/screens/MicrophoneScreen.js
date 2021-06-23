@@ -14,7 +14,8 @@ const MicroPhoneScreen = ({ match }) => {
 			let dataMap = {
 				analogues: () => import('../data/analogues'),
 				stands: () => import('../data/stands'),
-				products: () => import('../data/products')
+				products: () => import('../data/products'),
+				consoles: () => import('../data/consoles')
 			};
 
 			const productType = urlQueryParams.get('productType') || 'products';

@@ -19,7 +19,7 @@ const Equipment = () => {
 					</Link>
 				</div>
 				<div className="box-home-3">
-					<Link className="console-link" to="/stands">
+					<Link className="console-link" to="/console">
 						Console
 					</Link>
 				</div>
