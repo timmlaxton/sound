@@ -1,0 +1,57 @@
+.foldback-title {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 60px;
+	position: sticky;
+}
+
+.foldback-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.foldback-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.foldback-col {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 2rem;
+}
+
+@media (max-width: 960px) {
+	.box-home-1,
+	.box-home-2,
+	.box-home-3,
+	.box-home-4 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.box-home-1 {
+		width: 100%;
+	}
+
+	.box-home-2 {
+		width: 100%;
+	}
+
+	.box-home-3 {
+		width: 100%;
+	}
+	.box-home-4 {
+		width: 100%;
+	}
+
+	.equipment-title,
+	.mic-link,
+	.analogue-link,
+	.console-link,
+	.foldback-link {
+		font-size: 2rem;
+	}
+}

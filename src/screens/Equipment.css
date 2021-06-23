@@ -29,7 +29,7 @@
 
 .mic-link {
 	color: white;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-size: 60px;
 	margin-top: 20px;
 }
@@ -47,13 +47,13 @@
 
 .analogue-link {
 	color: white;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-size: 60px;
 	margin-top: 20px;
 }
 
 .box-home-3 {
-	width: 400%;
+	width: 50%;
 	height: 360px;
 	text-align: center;
 	background-color: black;
@@ -66,7 +66,28 @@
 
 .console-link {
 	color: white;
-	text-decoration: none;
+	text-decoration: none !important;
+	font-size: 60px;
+	margin-top: 20px;
+}
+
+.box-home-4 {
+	width: 50%;
+	height: 360px;
+	text-align: center;
+	background-color: black;
+	padding: 1px;
+	box-sizing: border-box;
+	background-image: url(https://images.unsplash.com/photo-1621976973155-76d689d970d8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGFtcGxpZmllcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+	border: solid white;
+	background-size: cover;
+	text-decoration: none !important;
+	font-size: 30px;
+}
+
+.foldback-link {
+	color: white;
+	text-decoration: none !important;
 	font-size: 60px;
 	margin-top: 20px;
 }
@@ -74,7 +95,8 @@
 @media (max-width: 960px) {
 	.box-home-1,
 	.box-home-2,
-	.box-home-3 {
+	.box-home-3,
+	.box-home-4 {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -90,11 +112,14 @@
 	.box-home-3 {
 		width: 100%;
 	}
+	.box-home-4 {
+		width: 100%;
+	}
 
 	.equipment-title,
 	.mic-link,
 	.analogue-link,
 	.console-link {
 		font-size: 2rem;
-	}	
+	}
 }

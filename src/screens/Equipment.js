@@ -10,17 +10,22 @@ const Equipment = () => {
 			<div className="container-box">
 				<div className="box-home-1">
 					<Link className="mic-link" to="/microphones">
-						Microphones & Stands
+						Point of capture
 					</Link>
 				</div>
 				<div className="box-home-2">
 					<Link className="analogue-link" to="/analogue">
-						Analogue Outboards
+						Analogue Outboard
 					</Link>
 				</div>
 				<div className="box-home-3">
 					<Link className="console-link" to="/console">
-						Console
+						Digital Stage
+					</Link>
+				</div>
+				<div className="box-home-4">
+					<Link className="foldback-link" to="/foldback">
+						FoldBack Moitoring
 					</Link>
 				</div>
 			</div>

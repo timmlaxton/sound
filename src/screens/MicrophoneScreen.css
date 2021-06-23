@@ -7,15 +7,17 @@
 
 .mic-name {
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 10px;
 	margin-left: 25%;
 	width: 10%;
+	text-decoration: none !important;
 }
 
 .mic-description {
 	margin-top: 0px;
 	margin-left: 25%;
-	width: 10%;
+	width: 550%;
+	text-decoration: none !important;
 }
 
 .mic-quantity {
@@ -61,7 +63,7 @@
 		margin-left: -480px;
 		margin-top: 10px;
 		position: sticky;
-		width: 250%;
+		width: 550%;
 	}
 
 	.mic-quantity {

@@ -10,6 +10,7 @@ import Equipment from './screens/Equipment';
 import Microphones from './screens/Microphones';
 import Analogue from './screens/Analogue';
 import Console from './screens/Console';
+import Foldback from './screens/Foldback';
 import MicroPhoneScreen from './screens/MicrophoneScreen';
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 				<Route path="/microphones" exact component={Microphones} />
 				<Route path="/analogue" exact component={Analogue} />
 				<Route path="/console" exact component={Console} />
+				<Route path="/foldback" exact component={Foldback} />
 				<Route path="/product/:id" exact component={MicroPhoneScreen} />
 			</Switch>
 		</Router>

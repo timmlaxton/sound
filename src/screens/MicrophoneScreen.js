@@ -15,7 +15,8 @@ const MicroPhoneScreen = ({ match }) => {
 				analogues: () => import('../data/analogues'),
 				stands: () => import('../data/stands'),
 				products: () => import('../data/products'),
-				consoles: () => import('../data/consoles')
+				consoles: () => import('../data/consoles'),
+				foldbacks: () => import('../data/foldbacks')
 			};
 
 			const productType = urlQueryParams.get('productType') || 'products';
@@ -37,7 +38,7 @@ const MicroPhoneScreen = ({ match }) => {
 				<Col className="micro-col" md={6}>
 					<Image className="micro-image" src={product.image} alt={product.name} fluid />
 				</Col>
-				<Col md={4}>
+				<Col>
 					<div className="mic-name">
 						<h2 className="mic-title">{product.name}</h2>
 						<p className="mic-description">{product.description}</p>

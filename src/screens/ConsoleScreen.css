@@ -3,11 +3,16 @@
 	margin-top: 10px;
 	font-size: 2rem;
 	font-family: sans-serif;
+	text-decoration: none !important;
 }
 
 .console-container {
 	display: flex;
 	flex-direction: row;
+}
+
+.conole-description {
+	text-decoration: none !important;
 }
 
 .console-row {
