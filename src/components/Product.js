@@ -11,6 +11,12 @@ const Product = ({ product, productType }) => {
 		link = `${link}?productType=${productType}`;
 	}
 
+	let { description } = product;
+
+	if (description.length > 90) {
+		description = description.slice(0, 90).padEnd('93', '.');
+	}
+
 	return (
 		<Card className="product-card">
 			<Link to={link}>
@@ -19,7 +25,7 @@ const Product = ({ product, productType }) => {
 					<Card.Title className="card-name" as="div">
 						{product.name}
 					</Card.Title>
-					<Card.Text className="card-description">{product.description}</Card.Text>
+					<Card.Text className="card-description">{description}</Card.Text>
 					<Card.Text as="div">Qty:{product.quantity}</Card.Text>
 				</Card.Body>
 			</Link>

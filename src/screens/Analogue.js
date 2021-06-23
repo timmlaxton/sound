@@ -13,7 +13,7 @@ const Analogue = () => {
 			<div className="analogue-container">
 				<Row className="analogue-row">
 					{analogues.map((analogue) => (
-						<Col className="analogue-col" sm={1} md={6}>
+						<Col className="analogue-col" md={6}>
 							<Product product={analogue} productType="analogues" />
 						</Col>
 					))}

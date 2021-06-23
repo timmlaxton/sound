@@ -1,77 +1,46 @@
 .mic-title {
-	text-align: center;
-	margin-top: -300px;
-	margin-left: 25%;
-	width: 1%;
 }
 
 .mic-name {
-	text-align: center;
 	margin-top: 10px;
-	margin-left: 25%;
-	width: 10%;
 	text-decoration: none !important;
 }
 
 .mic-description {
 	margin-top: 0px;
-	margin-left: 25%;
-	width: 550%;
 	text-decoration: none !important;
 }
 
 .mic-quantity {
-	text-align: center;
 	margin-top: 0px;
-	margin-left: 30%;
-	width: 20%;
 }
 
 .micro-image {
-	margin-left: -40%;
-	width: 40vw;
 }
 
 .mic-row {
-	margin-left: 20%;
-	margin-top: 10%;
-	position: sticky;
 }
 
 .micro-col {
-	width: 80vw;
-	margin-right: 100px;
 }
 
 .back-button {
 	text-decoration: none;
 	color: #232323;
-	margin-left: 5%;
 	text-decoration: none !important;
 }
 
 @media (min-width: 960px) {
 	.micro-image {
-		width: 20vw;
 	}
 
 	.mic-title {
-		margin-left: -460px;
-		margin-top: 40px;
-		position: sticky;
 	}
 
 	.mic-description {
-		margin-left: -480px;
 		margin-top: 10px;
-		position: sticky;
-		width: 550%;
 	}
 
 	.mic-quantity {
-		margin-left: -460px;
-		margin-top: 0px;
-		width: 45px;
-		position: sticky;
 	}
 }

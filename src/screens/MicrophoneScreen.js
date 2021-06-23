@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap';
+import { Link, useHistory } from 'react-router-dom';
+import { Container, Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap';
 import { useUrlQuery } from '../hooks';
 import './MicrophoneScreen.css';
 import './AnalogueScreen.css';
@@ -8,7 +8,8 @@ import './AnalogueScreen.css';
 const MicroPhoneScreen = ({ match }) => {
 	const [product, setProduct] = useState([]);
 	const urlQueryParams = useUrlQuery();
-
+	const history = useHistory();
+	console.log({ history });
 	useEffect(() => {
 		(async () => {
 			let dataMap = {
@@ -29,14 +30,20 @@ const MicroPhoneScreen = ({ match }) => {
 	}, []);
 
 	return (
-		<div className="my-5">
-			<Link className="back-button fas fa-arrow-left" to="/equipment"></Link>
+		<Container className="my-5">
+			<a className="back-button fas fa-arrow-left" onClick={history.goBack}></a>
 
 			<Row className="mic-row">
-				<Col className="micro-col" md={6}>
-					<Image className="micro-image" src={product.image} alt={product.name} fluid />
+				<Col
+					className="mic-col"
+					md={{
+						span: 2,
+						offset: 3
+					}}
+				>
+					<Image className="mic-image" src={product.image} alt={product.name} fluid />
 				</Col>
-				<Col>
+				<Col md={4}>
 					<div className="mic-name">
 						<h2 className="mic-title">{product.name}</h2>
 						<p className="mic-description">{product.description}</p>
@@ -44,7 +51,7 @@ const MicroPhoneScreen = ({ match }) => {
 					</div>
 				</Col>
 			</Row>
-		</div>
+		</Container>
 	);
 };
 

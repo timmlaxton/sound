@@ -10,11 +10,10 @@
 	text-align: center;
 	margin-top: 0px;
 	margin-left: 30%;
-	width: 1%;
 }
 
 .analogue-container {
-	margin-right: 200px;
+	margin: 0 2rem;
 }
 
 .analogue-quantity {
@@ -30,9 +29,6 @@
 }
 
 .analogue-row {
-	margin-left: 20%;
-	margin-top: 10%;
-	position: sticky;
 }
 
 .micro-col {

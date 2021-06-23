@@ -6,7 +6,7 @@ import './Home.css';
 const Home = () => {
 	return (
 		<div>
-			<Jumbotron className="jumbotron">
+			<Jumbotron className="jumbotron home-hero-banner">
 				<h1 className="jumbo-title">Everything Audio</h1>
 				<p className="jumbo-text">Glasgow, {''}Scotland 07513 579731.</p>
 			</Jumbotron>
