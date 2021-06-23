@@ -15,7 +15,7 @@ const Foldback = () => {
 				<Row className="foldback-row">
 					{foldbacks.map((foldback) => (
 						<Col className="foldback-col" md={3}>
-							<Product product={foldback} productType="foldback" />
+							<Product product={foldback} productType="foldbacks" />
 						</Col>
 					))}
 				</Row>

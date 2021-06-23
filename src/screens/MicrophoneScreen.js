@@ -30,9 +30,7 @@ const MicroPhoneScreen = ({ match }) => {
 
 	return (
 		<div className="my-5">
-			<Link className="back-button" to="/equipment">
-				Go Back
-			</Link>
+			<Link className="back-button fas fa-arrow-left" to="/equipment"></Link>
 
 			<Row className="mic-row">
 				<Col className="micro-col" md={6}>

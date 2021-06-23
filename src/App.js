@@ -12,6 +12,7 @@ import Analogue from './screens/Analogue';
 import Console from './screens/Console';
 import Foldback from './screens/Foldback';
 import MicroPhoneScreen from './screens/MicrophoneScreen';
+
 function App() {
 	return (
 		<Router>

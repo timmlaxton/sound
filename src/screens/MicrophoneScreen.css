@@ -46,6 +46,8 @@
 .back-button {
 	text-decoration: none;
 	color: #232323;
+	margin-left: 5%;
+	text-decoration: none !important;
 }
 
 @media (min-width: 960px) {
