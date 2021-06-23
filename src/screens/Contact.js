@@ -14,7 +14,7 @@ const Contact = () => {
 			email: email.value,
 			message: message.value
 		};
-		let baseUrl = process.env.NODE_ENV === 'development' ? 'http://localhost:5000' : window.location.origin;
+		let baseUrl = process.env.NODE_ENV === 'development' ? '' : window.location.origin;
 		let response = await fetch(`${baseUrl}/api/contact`, {
 			method: 'POST',
 			headers: {

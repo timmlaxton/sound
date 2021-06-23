@@ -1,11 +1,7 @@
 const express = require('express');
-const dotenv = require('dotenv');
 const cors = require('cors');
 const nodemailer = require('nodemailer');
-const path = require('path');
-const { google } = require('googleapis');
-
-dotenv.config();
+console.log('in api/index.js');
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -26,7 +22,7 @@ contactEmail.verify((error) => {
 	}
 });
 
-app.post('/contact', (req, res) => {
+app.post('/api/contact', (req, res) => {
 	const name = req.body.name;
 	const email = req.body.email;
 	const message = req.body.message;
