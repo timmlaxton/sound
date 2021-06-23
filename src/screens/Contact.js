@@ -41,10 +41,7 @@ const Contact = () => {
 								theatre, dance and therapeutic applications.{' '}
 							</p>
 							<br />
-							<p>
-								{' '}
-								<solid>For Rates & Inquiries Fill In The Form Below </solid>{' '}
-							</p>{' '}
+							<p> For Rates & Inquiries Fill In The Form Below </p>{' '}
 						</div>
 
 						<Row>
