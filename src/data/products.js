@@ -123,8 +123,7 @@ const products = [
 		_id: '16',
 		name: 'Shure SM57',
 		image: '/images/mics/Shure SM57.jpg',
-		ddescription:
-			'For every acoustic condition, the SM57 delivers the power of your playing to every fan in the house.',
+		description: 'For every acoustic condition, the SM57 delivers the power of your playing to every fan in the house.',
 		category: 'mic',
 		quantity: 1
 	},

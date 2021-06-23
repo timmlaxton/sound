@@ -1,8 +1,9 @@
 .analogue-title {
 	text-align: center;
-	margin-top: -230px;
-	margin-left: 30%;
-	width: 1%;
+	margin-top: 20px;
+	font-size: 60px;
+	margin-right: 0%;
+	position: sticky;
 }
 
 .analogue-description {
@@ -10,6 +11,10 @@
 	margin-top: 0px;
 	margin-left: 30%;
 	width: 1%;
+}
+
+.analogue-container {
+	margin-right: 200px;
 }
 
 .analogue-quantity {
@@ -46,9 +51,8 @@
 	}
 
 	.analogue-title {
-		margin-left: -460px;
-		margin-top: 40px;
-		position: sticky;
+		margin-left: 10px;
+		margin-top: 10px;
 	}
 
 	.analogue-description {
