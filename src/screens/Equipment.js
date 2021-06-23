@@ -1,6 +1,6 @@
 import React from 'react';
 import './Equipment.css';
-import { Button } from 'react-bootstrap';
+
 import { Link } from 'react-router-dom';
 
 const Equipment = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Row, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Jumbotron } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import './Home.css';
 

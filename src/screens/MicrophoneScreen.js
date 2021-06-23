@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import { Container, Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import { useUrlQuery } from '../hooks';
 import './MicrophoneScreen.css';
 import './AnalogueScreen.css';
