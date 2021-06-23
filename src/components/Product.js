@@ -11,11 +11,11 @@ const Product = ({ product, productType }) => {
 		link = `${link}?productType=${productType}`;
 	}
 
-	let { description } = product;
+	// let { description } = product;
 
-	if (description.length > 90) {
-		description = description.slice(0, 90).padEnd('93', '.');
-	}
+	// if (description.length > 90) {
+	// 	description = description.slice(0, 90).padEnd('93', '.');
+	// }
 
 	return (
 		<Card className="product-card">
