@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import './Product.css';
+import '../data/products';
 
 const Product = ({ product, productType }) => {
-	let link = `/product/${product._id}`
+	let link = `/product/${product._id}`;
 
 	if (productType) {
-		link = `${link}?productType=${productType}`
+		link = `${link}?productType=${productType}`;
 	}
 
 	return (

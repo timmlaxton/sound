@@ -100,14 +100,14 @@ video {
 		padding: 10px;
 		margin: 20px;
 		height: auto;
-		width: 200%;
+		width: 180%;
 		position: sticky;
 	}
 	.column-title {
 		padding: 10px;
 		margin: 20px;
 		height: auto;
-		width: 250%;
+		width: 350%;
 		position: sticky;
 	}
 }

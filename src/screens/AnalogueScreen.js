@@ -12,7 +12,7 @@ const AnalogueScreen = () => {
 			</Link>
 
 			<Row className="analogue-row">
-				<Col className="analogue-col" md={12}>
+				<Col className="analogue-col" md={3}>
 					<Image className="analogue-image" src={product.image} alt={product.name} fluid />
 				</Col>
 				<Col md={3}>

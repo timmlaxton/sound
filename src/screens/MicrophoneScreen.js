@@ -27,7 +27,7 @@ const MicroPhoneScreen = ({ match }) => {
 	}, []);
 
 	return (
-		<div className="my-4">
+		<div className="my-5">
 			<Link className="back-button" to="/equipment">
 				Go Back
 			</Link>
@@ -36,7 +36,7 @@ const MicroPhoneScreen = ({ match }) => {
 				<Col className="micro-col" md={6}>
 					<Image className="micro-image" src={product.image} alt={product.name} fluid />
 				</Col>
-				<Col md={3}>
+				<Col md={4}>
 					<div className="mic-name">
 						<h2 className="mic-title">{product.name}</h2>
 						<p className="mic-description">{product.description}</p>
