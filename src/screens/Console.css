@@ -1,0 +1,41 @@
+.console-title {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 2rem;
+	font-family: sans-serif;
+}
+
+.console-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.console-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.console-col {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 2rem;
+}
+
+@media (min-width: 960px) {
+	.console-container {
+		margin: 0 2rem;
+	}
+	.console-title {
+		font-size: 40px;
+	}
+
+	.console-row {
+		width: 100%;
+	}
+
+	.console-col {
+		padding: 1rem;
+	}
+}
