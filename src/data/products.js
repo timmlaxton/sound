@@ -21,7 +21,7 @@ const products = [
     name: "Audix d6",
     image: "/images/mics/Audix D6.jpg",
     description:
-      "The D6 dynamic instrument microphone is used for stage, studio, and broadcast applications.",
+      "The D6 dynamic instrument microphone is used for stage, studio, and broadcast application.",
     category: "mic",
     quantity: 1,
   },
