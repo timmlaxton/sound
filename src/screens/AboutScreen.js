@@ -1,14 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const AboutScreen = () => {
   return (
     <div>
-   
-      <h1 className="about-title">
-      What would you like here?</h1>
-    
+      <h1 className="about-title">POPOPO POPOPO POPOP</h1>
     </div>
-  )
-}
+  );
+};
 
-export default AboutScreen
+export default AboutScreen;
