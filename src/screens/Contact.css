@@ -3,11 +3,11 @@
 }
 
 .emailresponseheader {
-  margin-bottom: 50%;
+  text-align: center;
+  font-style: bold;
 }
 
 .emailresponse {
-  margin-bottom: 70%;
   font-size: large;
   text-align: center;
   font-style: bold;
