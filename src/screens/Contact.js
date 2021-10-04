@@ -7,12 +7,12 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xeqvvody");
   if (state.succeeded) {
     return (
-      <>
+      <div>
         <h1 className="emailresponseheader">Thanks for the email</h1>
         <p className="emailresponse">
           Thanks for gettting in touch, I will be in contact to discuss further.
         </p>
-      </>
+      </div>
     );
   }
   return (
