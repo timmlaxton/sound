@@ -8,7 +8,7 @@ const Contact = () => {
   if (state.succeeded) {
     return (
       <>
-        <h1>Thanks for the email</h1>
+        <h1 className="emailresponseheader">Thanks for the email</h1>
         <p className="emailresponse">
           Thanks for gettting in touch, I will be in contact to discuss further.
         </p>

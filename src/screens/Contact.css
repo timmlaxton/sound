@@ -2,7 +2,12 @@
   align-items: center;
 }
 
+.emailresponseheader {
+  margin-top: 50px;
+}
+
 .emailresponse {
+  margin-top: 70px;
   font-size: large;
   text-align: center;
   font-style: bold;
