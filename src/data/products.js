@@ -34,6 +34,15 @@ const products = [
     category: "mic",
     quantity: 2,
   },
+  {
+    _id: "5",
+    name: "Beyerdynamic m130",
+    image: "/images/mics/Beyerdynamic m130.jpg",
+    description:
+      "Classic ribbon microphone offering two stacked ribbons enusring pure, uncolored sound.",
+    category: "mic",
+    quantity: 2,
+  },
 
   {
     _id: "7",
