@@ -6,7 +6,11 @@ import "./Contact.css";
 const Contact = () => {
   const [state, handleSubmit] = useForm("xeqvvody");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return (
+      <p className="emailresponse">
+        Thanks for gettting in touch, I will be in contact to discuss further
+      </p>
+    );
   }
   return (
     <Container className="my-4">
