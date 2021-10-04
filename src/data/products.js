@@ -47,7 +47,7 @@ const products = [
   {
     _id: "7",
     name: "Beyerdynamic m160",
-    image: "/images/mics/beyerdynamic-m160-de.jpg",
+    image: "/images/mics/beyerdynamic-m160-d.jpg",
     description:
       "While most ribbon microphones rely on a figure 8 polar pattern, the M 160 distinguishes itself with hypercardioid.",
     category: "mic",
